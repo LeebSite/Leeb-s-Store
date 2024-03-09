@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D2E0FB"
+        android:background="#E0EDFF"
         tools:context=".DaftarTabletActivity">
 
         <TextView
@@ -47,7 +47,7 @@
             android:id="@+id/cvTablet1"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#7AA7E1"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="13dp"
@@ -115,7 +115,7 @@
             android:id="@+id/cvTablet2"
             android:layout_width="match_parent"
             android:layout_height="145dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#97BBEA"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="17dp"
@@ -184,7 +184,7 @@
             android:id="@+id/cvTablet3"
             android:layout_width="match_parent"
             android:layout_height="145dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#7AA7E1"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="17dp"
@@ -253,7 +253,7 @@
             android:id="@+id/cvTablet4"
             android:layout_width="match_parent"
             android:layout_height="145dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#97BBEA"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="17dp"
@@ -322,7 +322,7 @@
             android:id="@+id/cvTablet5"
             android:layout_width="match_parent"
             android:layout_height="145dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#7AA7E1"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="17dp"

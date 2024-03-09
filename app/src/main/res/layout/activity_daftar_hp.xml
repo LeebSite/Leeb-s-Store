@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D2E0FB"
+        android:background="#E0EDFF"
         tools:context=".DaftarHpActivity">
 
         <TextView
@@ -47,7 +47,7 @@
             android:id="@+id/cvHp1"
             android:layout_width="match_parent"
             android:layout_height="138dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#7AA7E1"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="12dp"
@@ -114,7 +114,7 @@
             android:id="@+id/cvHp2"
             android:layout_width="match_parent"
             android:layout_height="138dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#97BBEA"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="16dp"
@@ -181,7 +181,7 @@
             android:id="@+id/cvHp3"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#7AA7E1"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="16dp"
@@ -248,7 +248,7 @@
             android:id="@+id/cvHp4"
             android:layout_width="match_parent"
             android:layout_height="138dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#97BBEA"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="16dp"
@@ -314,7 +314,7 @@
             android:id="@+id/cvHp5"
             android:layout_width="match_parent"
             android:layout_height="138dp"
-            app:cardBackgroundColor="#6895D2"
+            app:cardBackgroundColor="#7AA7E1"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:layout_marginTop="16dp"
