@@ -21,7 +21,7 @@ public class DaftarLaptopActivity extends AppCompatActivity {
         cvLaptop1.setOnClickListener(view -> {
             Intent intent = new Intent(DaftarLaptopActivity.this, DeskripsiDetailActivity.class);
             intent.putExtra("nama_barang", "Samsung Galaxy Book Flex");
-            intent.putExtra("deskripsi_barang", "Layar 11.6 inch dengan Resolusi 1366 x 768 px\n" +
+            intent.putExtra("deskripsi_barang", "Layar 11.6 inch dengan Resolusi 1366 x 768 pixels\n" +
                                   "Sistem Operasi Windows 10 Home dengan Prosesor Intel Core i5 3.7GHz\n"+
                                   "Graphic NVIDIA GeForce MX250 Touchscreen With Finferprint Reader\n" +
                                   "Backlit Keyboard dengan Material Bodi Aluminium Berat 1.2kg");
@@ -33,13 +33,13 @@ public class DaftarLaptopActivity extends AppCompatActivity {
         cvLaptop2.setOnClickListener(view -> {
             Intent intent = new Intent(DaftarLaptopActivity.this, DeskripsiDetailActivity.class);
             intent.putExtra("nama_barang", "Samsung Galaxy Book Pro");
-            intent.putExtra("deskripsi_barang", "Layar 15.6 inch dengan Resolusi 1920 x 1080 px\n" +
+            intent.putExtra("deskripsi_barang", "Layar 15.6 inch dengan Resolusi 1920 x 1080 pixels\n" +
                                   "Sistem Operasi Windows 10 Home dengan Prosesor Intel Core i7 2.8GHz\n"+
                                   "Storage 512GB SSD dengan RAM 16GB 24000MHz\n" +
                                   "Graphic Intel Iris Xe Touchscreen With Finferprint Reader\n" +
                                   "Backlit Keyboard dengan Material Bodi Plastic Berat 1.38kg");
             intent.putExtra("harga_barang", "Rp. 14.400.000");
-            intent.putExtra("gambar_barang", R.drawable.laptop1);
+            intent.putExtra("gambar_barang", R.drawable.laptop2);
             startActivity(intent);
         });
 
@@ -51,7 +51,7 @@ public class DaftarLaptopActivity extends AppCompatActivity {
                                   "Storage 128GB dengan 2 Slots RAM 4GB 1600 MHz DDR3\n" +
                                   "Prosesor Intel Celeron N4500 1.9 GHz dengan Berat 1.28 kg");
             intent.putExtra("harga_barang", "Rp. 8.299.000");
-            intent.putExtra("gambar_barang", R.drawable.laptop1);
+            intent.putExtra("gambar_barang", R.drawable.laptop3);
             startActivity(intent);
         });
 
@@ -65,7 +65,7 @@ public class DaftarLaptopActivity extends AppCompatActivity {
                                   "Prosesor Intel Core i7 3517U 1.9 GHz 1.9 GHz Turbo 2.9 GHz\n" +
                                   "Backlite Keyboard dengan Berat 1.4Kg");
             intent.putExtra("harga_barang", "Rp. 8.100.000");
-            intent.putExtra("gambar_barang", R.drawable.laptop1);
+            intent.putExtra("gambar_barang", R.drawable.laptop4);
             startActivity(intent);
         });
 
@@ -78,7 +78,7 @@ public class DaftarLaptopActivity extends AppCompatActivity {
                                   "Storage Up to 1TB dengan RAM LPDDR5X 32 GB\n" +
                                   "Camera 2MP, Speaker quad AKG Dolby Atmos & Digital Michrophone");
             intent.putExtra("harga_barang", "Rp. 37.299.000");
-            intent.putExtra("gambar_barang", R.drawable.laptop1);
+            intent.putExtra("gambar_barang", R.drawable.laptop5);
             startActivity(intent);
         });
     }
