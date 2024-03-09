@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarHpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2E0FB"
+        tools:context=".DaftarHpActivity">
+
+        <TextView
+            android:id="@+id/tvNamaApp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#1B1A55"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Leeb's Store"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="22dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvIntroJudul"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textStyle="bold"
+            android:text="Laptop"
+            android:textColor="#1B1A55"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNamaApp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLaptop1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/tvIntroJudul"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laptop1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="3dp"
+                        android:lineSpacingExtra="-2dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Samsung Galaxy Book Flex"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="-1dp"
+                        android:text="NVIDIA GeForce MX250 Intel Core i5 13,3 inch"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 7.499.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="16sp"
+                        android:textColor="#201658" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLaptop2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvLaptop1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laptop1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="3dp"
+                        android:lineSpacingExtra="-2dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Samsung Galaxy Book Pro"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="-1dp"
+                        android:text="Mystic Silver - Intel Core i7, 15.6 inch "
+                        android:textSize="14sp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="Rp. 14.400.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="16sp"
+                        android:textColor="#201658" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLaptop3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvLaptop2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laptop1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:lineSpacingExtra="-2dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Samsung Galaxy Chromebook 2 360"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="-2dp"
+                        android:text="Silver - Intel UHD G600 Intel Celeron N4020 13,3 inch"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 8.299.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="16sp"
+                        android:textColor="#201658" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLaptop4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvLaptop3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laptop1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.2dp"
+                        android:lineSpacingExtra="-2dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Samsung ATIV UltraBook NP900X3C"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="-2dp"
+                        android:text="NP Series 4GB DDR3 Intel Core i7 13.3 inch'"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 7.100.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="16sp"
+                        android:textColor="#201658" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLaptop5"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvLaptop4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laptop1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginTop="3dp"
+                        android:lineSpacingExtra="-2dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Samsung Galaxy Book4 Ultra"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="-2dp"
+                        android:text="Moonstone Gray - Intel Core i9 LPDDR5X 16 inch'"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 37.299.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="16sp"
+                        android:textColor="#201658" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:layout_constraintTop_toBottomOf="@id/cvLaptop5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

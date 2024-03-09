@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3FF">
+
+    <TextView
+        android:id="@+id/tvNamaApp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#1B1A55"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Leeb's Store"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="22dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNamaBarang"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Nama Barang"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaApp"
+        app:layout_constraintBottom_toTopOf="@id/ivGambarBarang" />
+
+    <ImageView
+        android:id="@+id/ivGambarBarang"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaBarang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDeskripsiBarang"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        android:text="Deskripsi Barang"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivGambarBarang"/>
+
+    <TextView
+        android:id="@+id/tvHargaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDeskripsiBarang"
+        android:gravity="center"
+        android:text="Harga"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="20dp"
+        android:textColor="#201658"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDeskripsiBarang"/>
+
+    <Button
+        android:id="@+id/btnBeli"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Beli"
+        android:textSize="23dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3652AD"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnShare"
+        app:layout_constraintTop_toBottomOf="@id/tvHargaBarang"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp" /> />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Share"
+        android:textSize="23dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#280274"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintStart_toEndOf="@id/btnBeli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHargaBarang"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

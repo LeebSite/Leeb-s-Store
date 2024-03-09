@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarTabletActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2E0FB"
+        tools:context=".DaftarTabletActivity">
+
+        <TextView
+            android:id="@+id/tvNamaApp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#1B1A55"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Leeb's Store"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="22dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvIntroJudul"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textStyle="bold"
+            android:text="Tablet"
+            android:textColor="#1B1A55"
+            android:textSize="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNamaApp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTablet1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/tvIntroJudul"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tablet1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Galaxy Tab S9 Ultra"
+                        android:textColor="@color/black"
+                        android:textSize="17.4sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="12 / 256 GB - Graphite"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 21.999.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="19sp"
+                        android:textColor="#201658"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTablet2"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvTablet1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tablet1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Galaxy Tab S9 FE+"
+                        android:textColor="@color/black"
+                        android:textSize="17.4sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="8 / 128 GB - Light Green"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 11.299.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="19sp"
+                        android:textColor="#201658"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTablet3"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvTablet2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tablet1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Galaxy Tab A7"
+                        android:textColor="@color/black"
+                        android:textSize="17.4sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="3 / 32 GB - Silver"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 3.899.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="19sp"
+                        android:textColor="#201658"
+                        android:layout_marginTop="6dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTablet4"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cvTablet3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tablet1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Iphone 14 Pro Max"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hp dengan membuat anda menjadi elegan dengan memakainya"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 28.000.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="15dp"
+                        android:textColor="#201658"
+                        android:layout_marginTop="3dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTablet5"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            app:cardBackgroundColor="#6895D2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintTop_toBottomOf="@id/cvTablet4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Foto Barang"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tablet1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Iphone 14 Pro Max"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hp dengan membuat anda menjadi elegan dengan memakainya"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 28.000.000"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:textSize="15dp"
+                        android:textColor="#201658"
+                        android:layout_marginTop="3dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:layout_constraintTop_toBottomOf="@id/cvTablet5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
